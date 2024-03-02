@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.LoginController">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="48.0" prefWidth="614.0" style="-fx-background-color: #A5FFFE;">
+         <children>
+            <Text layoutX="14.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EVENT DETAILS">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="155.0" fitWidth="614.0" layoutY="34.0">
+         <image>
+            <Image url="@../../../pics/events.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="register" layoutX="430.0" layoutY="346.0" mnemonicParsing="false" onAction="#Register" prefHeight="35.0" prefWidth="83.0" text="Register">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Text layoutX="37.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Athletics">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Text>
+      <Text layoutX="181.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Badmintom">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Text>
+      <Text layoutX="338.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Basketball">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Text>
+      <Text layoutX="505.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chess">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Text>
+      <Text layoutX="39.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Football">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Text>
+      <Text layoutX="181.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Table Tennis">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Text>
+      <Separator layoutX="135.0" layoutY="189.0" orientation="VERTICAL" prefHeight="211.0" prefWidth="6.0" />
+      <Separator layoutX="304.0" layoutY="189.0" orientation="VERTICAL" prefHeight="211.0" prefWidth="6.0" />
+      <Separator layoutX="451.0" layoutY="189.0" orientation="VERTICAL" prefHeight="97.0" prefWidth="6.0" />
+      <Separator layoutY="289.0" prefHeight="7.0" prefWidth="614.0" />
+      <ImageView fitHeight="48.0" fitWidth="54.0" layoutX="39.0" layoutY="201.0">
+         <image>
+            <Image url="@../../../pics/running.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="54.0" layoutX="193.0" layoutY="201.0">
+         <image>
+            <Image url="@../../../pics/player.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="58.0" layoutX="343.0" layoutY="201.0">
+         <image>
+            <Image url="@../../../pics/basketball.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="54.0" layoutX="497.0" layoutY="201.0">
+         <image>
+            <Image url="@../../../pics/chess.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="45.0" layoutX="33.0" layoutY="305.0">
+         <image>
+            <Image url="@../../../pics/shoot.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="64.0" layoutX="186.0" layoutY="298.0">
+         <image>
+            <Image url="@../../../pics/table-tennis.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
